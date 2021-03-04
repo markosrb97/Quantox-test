@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h3,
+h4,
+p {
+  padding: 5px;
+}
+.d-flex {
+  display: flex;
+}
+.container {
+  width: 720px;
+  margin: 20px auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.weather-container {
+  margin: 5px;
+  width: 300px;
+  background-color: rgb(215, 224, 250);
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 0px solid #000000;
+  cursor: pointer;
+}
+.mini-box {
+  flex-basis: 50%;
+  text-align: center;
+}
+.weather-icon {
+  width: 100px;
+}
+.weather-details {
+  position: absolute;
+  width: 500px;
+  background-color: rgb(133, 163, 253);
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 0px solid #000000;
+  text-align: center;
+  display: none;
+  margin-top: 50px;
+}
+.wind-details {
+  justify-content: center;
+  text-transform: uppercase;
+}
+.wind-direction-img {
+  width: 20px;
+  height: 20px;
+}
+.functions {
+  width: 300px;
+  justify-content: space-around;
+  text-align: center;
+}
+input {
+  margin: 10px;
+}
+button {
+  width: 120px;
+  margin: 10px;
+}

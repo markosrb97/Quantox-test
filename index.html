@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quantox test 04-03-2021.</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <main class="container d-flex">
+      <div
+        class="weather-container d-flex"
+        id="Mon"
+        onclick="displayDetails(this.id)"
+      >
+        <div class="left mini-box">
+          <img src="" alt="" class="weather-icon" />
+        </div>
+        <div class="right mini-box">
+          <h3></h3>
+          <h4></h4>
+        </div>
+      </div>
+      <div
+        class="weather-container d-flex"
+        id="Tue"
+        onclick="displayDetails(this.id)"
+      >
+        <div class="left mini-box">
+          <img src="" alt="" class="weather-icon" />
+        </div>
+        <div class="right mini-box">
+          <h3></h3>
+          <h4></h4>
+        </div>
+      </div>
+      <div
+        class="weather-container d-flex"
+        id="Wed"
+        onclick="displayDetails(this.id)"
+      >
+        <div class="left mini-box">
+          <img src="" alt="" class="weather-icon" />
+        </div>
+        <div class="right mini-box">
+          <h3></h3>
+          <h4></h4>
+        </div>
+      </div>
+      <div
+        class="weather-container d-flex"
+        id="Thu"
+        onclick="displayDetails(this.id)"
+      >
+        <div class="left mini-box">
+          <img src="" alt="" class="weather-icon" />
+        </div>
+        <div class="right mini-box">
+          <h3></h3>
+          <h4></h4>
+        </div>
+      </div>
+      <div
+        class="weather-container d-flex"
+        id="Fri"
+        onclick="displayDetails(this.id)"
+      >
+        <div class="left mini-box">
+          <img src="" alt="" class="weather-icon" />
+        </div>
+        <div class="right mini-box">
+          <h3></h3>
+          <h4></h4>
+        </div>
+      </div>
+      <div
+        class="weather-container d-flex"
+        id="Sat"
+        onclick="displayDetails(this.id)"
+      >
+        <div class="left mini-box">
+          <img src="" alt="" class="weather-icon" />
+        </div>
+        <div class="right mini-box">
+          <h3></h3>
+          <h4></h4>
+        </div>
+      </div>
+      <div
+        class="weather-container d-flex"
+        id="Sun"
+        onclick="displayDetails(this.id)"
+      >
+        <div class="left mini-box">
+          <img src="" alt="" class="weather-icon" />
+        </div>
+        <div class="right mini-box">
+          <h3></h3>
+          <h4></h4>
+        </div>
+      </div>
+      <div class="weather-details">
+        <h3></h3>
+        <h4></h4>
+        <img src="" alt="" class="weather-icon" />
+        <div class="wind-details d-flex">
+          <p class="wind-direction"></p>
+          <img
+            src="assets/images/weather/wind-arrow.png"
+            alt=""
+            class="wind-direction-img"
+          />
+          <p class="wind-speed"></p>
+        </div>
+        <button onclick="closeWindow()">Close</button>
+      </div>
+      <div class="functions">
+        <button onclick="temperatureValChange()" disabled="disabled">
+          Change temperature C/F
+        </button>
+        <button onclick="speedValChange()" disabled="disabled">
+          Change speed value
+        </button>
+      </div>
+    </main>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
